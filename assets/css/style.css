@@ -1,0 +1,167 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background: url("../images/asanoha-400px.png");
+}
+/* styling classes for the header elements */
+.mainHeader {
+    background: #ffffff;
+    height: fit-content;
+    border-bottom: 2px solid #dddddd;
+}
+
+.headerBox {
+    margin-bottom: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: inherit;
+    background-color:#4aaaa5;
+    padding-right: 3%;
+    padding-left: 3%;
+    float: left;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-bottom: 4%;
+    border-bottom: 2px solid #cccccc;
+    margin-block-start: auto;
+}
+/* styling elements for links*/
+.linkToPage {
+    margin-right: 18%;
+    display: inline-flexbox;
+    padding-top: 1%;
+    word-spacing: 10px;
+}
+/*transpose list from vertical to horizontal*/
+li {
+    display: inline;
+    color: #777777;
+}
+/*elminate the default appearance of links*/
+a {
+    color: #777777;
+    text-decoration-line: none;
+}
+/* formatting for pictures */
+img {
+    margin-right: 2%;
+    vertical-align: top;
+}
+#profilePic {
+    float: left;
+    vertical-align: top;
+}
+/* formatting for main content of page */
+.wrapper {
+    margin: 18%;
+    margin-top: 3%;
+    border: 1px solid #cccccc;
+    padding: 2%; 
+    background-color: #ffffff;
+}
+.box {
+    display: inline-flexbox;
+}
+
+h3 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: inherit;
+    text-align: center;
+    display: flex;
+}
+figure {
+    display: inline-block;
+    margin: 1%;
+    position: relative;
+}
+
+.figLeft {
+    float: left;
+    vertical-align: middle;
+}
+  
+figcaption {
+    position: absolute;
+    bottom: 1em;
+    background-color: #4aaaa5;
+    width: 90%;
+    height: 10%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+}
+p {
+    color: #777777;
+    line-height: 200%;
+}
+#align-top {
+    line-height: 100%;
+}
+/* text formatting different from <p> tags*/
+.text {
+    margin-bottom: 0.5%;
+}
+.myText {
+    width: 100%;
+    color: inherit;
+    margin-bottom: 2%;
+    padding: 0.5%;
+}
+#myTextArea {
+    width: 100%;
+    border-color: #cccccc;
+}
+/* changing default button appearance */
+.buttonBox {
+    margin-left: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: inherit;
+    background-color:#4aaaa5;
+    padding-right: 3%;
+    padding-left: 3%;
+    float: left;    
+}
+button {
+    color: #ffffff;
+    border: none;
+    padding: 1%;
+}
+/* multiple image styling */
+.imgHolder {
+    position: relative;
+}
+.imgHolder span {
+    position: absolute;
+    align-content: center;
+}
+/* sticky footer */
+footer {
+    border-top: 8px solid #4aaaa5;
+    height: 15px;
+    background-color: #666666;
+    padding-top: 3%;
+    text-anchor: middle;
+    text-align: center;
+    font-size: 10px;
+    color: #cccccc;
+    position: sticky;
+    font-display: bottom;
+}
