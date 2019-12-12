@@ -16,12 +16,11 @@ body {
 
 .headerBox {
     margin-bottom: auto;
-    height: fit-content;
-    width: auto;
-    vertical-align: middle;
+    height: auto;
+    width: 100%;
+    text-align: center;
     background-color:#4aaaa5;
-    padding-right: 3%;
-    padding-left: 3%;
+    padding: -15px;
     float: left;
 }
 
