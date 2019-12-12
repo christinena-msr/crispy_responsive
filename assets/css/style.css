@@ -40,6 +40,7 @@ h2 {
 }
 /* styling elements for links*/
 .linkToPage {
+    /* background-color: #ffffff; */
     align-content: center;
     display: inline-flexbox;
     padding-top: 1%;
@@ -66,7 +67,7 @@ img {
 }
 /* formatting for main content of page */
 .wrapper {
-    margin: 18%;
+    margin: 5%;
     margin-top: 3%;
     border: 1px solid #cccccc;
     padding: 2%; 
@@ -98,7 +99,7 @@ figcaption {
     position: absolute;
     bottom: 1em;
     background-color: #4aaaa5;
-    width: 90%;
+    width: 40%;
     height: 10%;
     color: #ffffff;
     text-align: center;
