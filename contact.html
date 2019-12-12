@@ -8,8 +8,53 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    
+    <div class="container">
+        <div class="mainHeader">
+            <div class="row">
+                <div class="col-md-6" class="headerBox">
+                    <h1 class="heading">Christine Na</h1>
+                </div>
+                <div class="col-md-6" class="linkToPage">
+                    <ol>
+                        <li><a href="index.html">About</a></li>
+                        <li>|</li> 
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li>|</li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <section class="wrapper">
+            <h2 class="heading">Contact</h2>
+            <div class="box">
+                <div class="text">
+                Name
+                </div>
+                <!-- credit to dummies.com for helping me with this code -->
+                <input type = "text"
+                    class = "myText"
+                    value = "John Smith" />
+                <div class="text">
+                    Email
+                </div>
+                <input type = "text"
+                    class = "myText"
+                    value = "example@gmail.com"/>
+                <div class="text">
+                    Message
+                </div>
+                <textarea id = "myTextArea"
+                    rows="10"></textarea>
+                <!-- end of borrowed code -->            
+            </div>
+            <button class="buttonBox">Submit</button>
+        </section>
+        <footer>Copyright &copy;</footer>
+    </div>
 </body>
 </html>

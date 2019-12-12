@@ -17,8 +17,8 @@ body {
 .headerBox {
     margin-bottom: auto;
     height: fit-content;
-    width: fit-content;
-    text-align: inherit;
+    width: auto;
+    vertical-align: middle;
     background-color:#4aaaa5;
     padding-right: 3%;
     padding-left: 3%;
@@ -41,7 +41,7 @@ h2 {
 }
 /* styling elements for links*/
 .linkToPage {
-    margin-right: 18%;
+    align-content: center;
     display: inline-flexbox;
     padding-top: 1%;
     word-spacing: 10px;
