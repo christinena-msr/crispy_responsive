@@ -14,14 +14,26 @@ body {
     border-bottom: 2px solid #dddddd;
 }
 
+@media screen and (max-width: 768px) {
+    .headerBox {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .headerBox {
+        width: fit-content;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+    }
+}
+
 .headerBox {
     margin-bottom: auto;
-    height: auto;
-    width: 100%;
+    height: fit-content;
     text-align: center;
     background-color:#4aaaa5;
-    padding: -15px;
-    float: left;
 }
 
 .heading {
@@ -41,10 +53,13 @@ h2 {
 /* styling elements for links*/
 .linkToPage {
     /* background-color: #ffffff; */
-    align-content: center;
+    text-align: center;
     display: inline-flexbox;
     padding-top: 1%;
     word-spacing: 10px;
+}
+ol {
+    padding-inline-start: 0;
 }
 /*transpose list from vertical to horizontal*/
 li {
@@ -67,7 +82,6 @@ img {
 }
 /* formatting for main content of page */
 .wrapper {
-    margin: 5%;
     margin-top: 3%;
     border: 1px solid #cccccc;
     padding: 2%; 
@@ -88,11 +102,6 @@ figure {
     display: inline-block;
     margin: 1%;
     position: relative;
-}
-
-.figLeft {
-    float: left;
-    vertical-align: middle;
 }
   
 figcaption {
