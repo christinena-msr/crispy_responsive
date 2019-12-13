@@ -16,16 +16,15 @@ body {
 
 @media screen and (max-width: 768px) {
     .headerBox {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .headerBox {
-        width: fit-content;
+        max-width: fit-content;
         padding-left: 5%;
         padding-right: 5%;
-        margin: auto;
     }
 }
 
@@ -75,11 +74,19 @@ a {
 img {
     margin-right: 2%;
     vertical-align: top;
+    max-width: 60%;
+    height: auto;
 }
-#profilePic {
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+}
+/* #profilePic {
     float: left;
     vertical-align: top;
-}
+} */
 /* formatting for main content of page */
 .wrapper {
     margin-top: 3%;
