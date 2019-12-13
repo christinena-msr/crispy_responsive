@@ -14,20 +14,6 @@ body {
     border-bottom: 2px solid #dddddd;
 }
 
-@media screen and (max-width: 768px) {
-    .headerBox {
-        max-width: 100%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .headerBox {
-        max-width: fit-content;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-}
-
 .headerBox {
     margin-bottom: auto;
     height: fit-content;
@@ -55,10 +41,11 @@ h2 {
     text-align: center;
     display: inline-flexbox;
     padding-top: 1%;
-    word-spacing: 10px;
+
 }
 ol {
     padding-inline-start: 0;
+    word-spacing: 5%;
 }
 /*transpose list from vertical to horizontal*/
 li {
@@ -78,25 +65,18 @@ img {
     height: auto;
 }
 
-@media screen and (max-width: 768px) {
-    img {
-        max-width: 100%;
-    }
-}
-/* #profilePic {
+#profilePic {
     float: left;
-    vertical-align: top;
-} */
-/* formatting for main content of page */
+}
 .wrapper {
     margin-top: 3%;
     border: 1px solid #cccccc;
     padding: 2%; 
     background-color: #ffffff;
 }
-.box {
-    display: inline-flexbox;
-}
+/* .box {
+    display: flexbox;
+} */
 
 h3 {
     color: #ffffff;
@@ -168,16 +148,39 @@ button {
     position: absolute;
     align-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .headerBox {
+        max-width: 100%;
+
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .headerBox {
+        max-width: fit-content;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 15px;
+    }
+
+    .linkToPage {
+        text-align: right;
+    }
+}
+
 /* sticky footer */
 footer {
+    margin-top: 3%;
+    margin-bottom: 0;
     border-top: 8px solid #4aaaa5;
-    height: 15px;
     background-color: #666666;
     padding-top: 3%;
-    text-anchor: middle;
     text-align: center;
     font-size: 10px;
     color: #cccccc;
     position: sticky;
-    font-display: bottom;
 }
